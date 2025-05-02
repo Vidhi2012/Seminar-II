@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th ,td{
+            border:2px solid black;
+
+        }
+    </style>
+    <head>
+        <title>Student Detail Page</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <p>Select your occupation !</p>
+        <form>
+            <input type="radio" id="Student" name="occupation" value="Student">
+            <label for="Student">Student</label><br>
+            <input type="radio" id="Teacher" name="occupation" value="Teaher">
+            <label for="Teacher">Teacher</label><br>
+            <input type="radio" id="Expert" name="occupation" value="Expert">
+            <label for="Expert">Expert</label> 
+        </form>
+
+        <p>Enter your Details :-</p>
+
+        <form>
+            <label for="fname">First name:  </label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:   </label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="cname">College name:   </label><br>
+            <input type="text" id="cname" name="cname"><br><br>
+            <label for="bname">Branch:   </label><br>
+            <input type="text" id="bname" name="bname"><br><br>
+            <label for="rno">Roll Number:   </label><br>
+            <input type="text" id="rno" name="rno"><br><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+        <hr>
+        <h2>Entered details :-</h2>
+        <table style="width:100%">
+            <tr>
+              <th>First Name  </th>
+              <th>Last Name   </th>
+              <th>College Name   </th>
+              <th>Branch   </th>
+              <th>Roll Number   </th>
+            </tr>
+            <tr>
+              <td>Vidhi   </td>
+              <td>Sharma  </td>
+              <td>MGM College  </td>
+              <td>CSE  </td>
+              <td>214  </td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <h2>Collected Details :-</h2>
+        <table style="width:100%">
+            <tr>
+                  <th>Student Name</th>
+                  <th>College Name</th>
+                  <th>Branch</th>
+                  <th>Roll Number</th>
+            </tr>
+            <tr>
+                  <td>Vidhi Sharma</td>
+                  <td>MGM College</td>
+                  <td>CSE</td>
+                  <td>214</td>
+            </tr>
+            <tr>
+                  <td>Kinjal Bhartiya</td>
+                  <td>GH Raisoni</td>
+                  <td>E&TC</td>
+                  <td>509</td>
+            </tr>
+            <tr>
+                  <td>Meera Sase</td>
+                  <td>COEP</td>
+                  <td>AI&ML</td>
+                  <td>210</td>
+            </tr>
+            <tr>
+                  <td>Prachi Phulari</td>
+                  <td>DY Patil COE</td>
+                  <td>IT</td>
+                  <td>308</td>
+            </tr>
+            <tr>
+                  <td>Tanisha Patil</td>
+                  <td>TRPCOE</td>
+                  <td>Robotics</td>
+                  <td>100</td>
+            </tr>
+          </table>   
+    </body>
+</html>
+
+
+
